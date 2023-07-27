@@ -2,14 +2,14 @@
 
 ## Overview
 
-The WooCommerce API with Extended Functionality allows developers to interact with WooCommerce stores and access specific products with enhanced security using the `x-api-key` header. As part of the test environment, you can use the demo endpoint to retrieve sample data for product ID 766.
+The WooCommerce API with Extended Functionality allows developers to interact with WooCommerce stores and access specific products with enhanced security using the `x-api-key` header. As part of the test environment, you can use the demo endpoint to retrieve sample data for product ID 829.
 
 ## Demo Endpoint
 
 The demo endpoint URL for retrieving product data is:
 
 ```
-https://market.vnvadvisory.com/wp-json/wc/v3/products/766
+https://market.vnvadvisory.com/wp-json/wc/v3/products/829
 ```
 
 ### Required Headers
@@ -21,7 +21,7 @@ To access the demo data, make sure to include the following headers in your GET 
 Example using cURL:
 
 ```bash
-curl -X GET "https://market.vnvadvisory.com/wp-json/wc/v3/products/766" \
+curl -X GET "https://market.vnvadvisory.com/wp-json/wc/v3/products/829" \
   -H "x-api-key: test_x-api-key"
 ```
 
@@ -35,16 +35,16 @@ In addition to the headers, please include the following query parameters for au
 Example using cURL:
 
 ```bash
-curl -X GET "https://market.vnvadvisory.com/wp-json/wc/v3/products/766?consumer_key=test_consumer_key&consumer_secret=test_consumer_secret" \
+curl -X GET "https://market.vnvadvisory.com/wp-json/wc/v3/products/829?consumer_key=test_consumer_key&consumer_secret=test_consumer_secret" \
   -H "x-api-key: test_x-api-key"
 ```
 
 ### Response
 
-The API will respond with a JSON object containing the demo data for the product with ID 766:
+The API will respond with a JSON object containing the demo data for the product with ID 829:
 ```json
 {
-  "id": 766,
+  "id": 829,
   "name": "Demo Product",
   "price": "19.99",
   "description": "This is a demo product for testing purposes.",
