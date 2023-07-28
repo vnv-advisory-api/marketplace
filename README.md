@@ -44,16 +44,22 @@ curl -X GET "https://market.vnvadvisory.com/wp-json/wc/v3/products/829?consumer_
 The API will respond with a JSON object containing the demo data for the product with ID 829:
 ```json
 {
-  "id": 829,
-  "name": "Demo Product",
-  "price": "19.99",
-  "description": "This is a demo product for testing purposes.",
-  "category": "Demo Category",
-  "stock_quantity": 100,
-  "image": "https://example.com/demo_product.jpg"
+    "id": 829,
+    "name": "GSXX123 (test-product)",
+    "slug": "gsxx123-test-product",
+    "permalink": "https://market.vnvadvisory.com/product/gsxx123-test-product/",
+    "date_created": "2023-07-05T08:38:54",
+    "date_created_gmt": "2023-07-05T08:38:54",
+    "date_modified": "2023-07-05T08:40:44",
+    "date_modified_gmt": "2023-07-05T08:40:44",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
   // Additional product details...
 }
 ```
+Full Json response is given in the output.json file in the code.
 
 Please note that this is sample data and does not reflect actual product information.
 
