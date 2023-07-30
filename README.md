@@ -12,10 +12,10 @@ The aim of this code is to provide developers with an automated way to access li
    To get started, you'll need private keys that can be requested [here](https://market.vnvadvisory.com/request-info/). These private keys are crucial for authentication and secure access to the marketplace.
 
 2. **Connect Keys to Specific Volumes:**
-   We understand the importance of granularity and control. Our extended functionality allows us to connect specific API keys to specific products (volumes) rather than granting all keys access to all products. We'll assist you in linking your keys to the volume(s) from which you would like to reserve credits.
+   We understand the importance of granularity and control. Our extended functionality allows us to connect specific API keys to specific products (volumes) rather than granting all keys access to all products. We'll assist you in linking your keys to the volume(s) from which you would like to reserve credits (i.e. biogas, cookstoves, clean water, wind, solar etc).
 
 3. **Purchase Certified Carbon Credits:**
-   With the obtained private keys, developers can buy certified carbon credits with volumes as low as 10 credits (equivalent to 10 tonnes of certified CO2 compensation). Upon making the purchase, you will be presented with an online payment option.
+   With the obtained private keys, developers can buy certified carbon credits with volumes as low as 10 credits (equivalent to 10 tonnes of certified CO2 compensation). Upon making the purchase, you will be presented with an online payment option. In case your specific business requires another approach (say weekly or monthly retirements), we can work out the best process together.
 
 4. **Customized Credit Retirement:**
    During the purchasing process, you can provide a description that you want VNV to use when retiring these credits on your behalf. Typically, we work with the phrase: *"Retired on behalf of <X> to offset their <scope X> emissions for year(s) 2022-2023"* or something along those lines.
