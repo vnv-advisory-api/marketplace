@@ -5,8 +5,9 @@
 The **WooCommerce API with Extended Functionality** enables developers to interact with WooCommerce stores and access specific products with enhanced security using the `x-api-key` header. In this test environment, you can utilize the demo endpoint to retrieve sample data for a particular product (ID 829).
 
 ## Aim and Purpose
+The aim of this code is to provide developers with an automated way to access live volumes of certified carbon credits from project developer [VNV Advisory based in Bangalore, India](https://www.vnvadvisory.com). VNV Advisory is a project developer with over 15 years of experience committed to environmental sustainability and social impact. We are not just another commodity trader or fancy retailer with beautiful stories; instead, we take pride in being the real deal. Our approach revolves around brokering credits on behalf of the 150 (!) certified projects we develop in collaboration with our dedicated social partners on the ground.
 
-The aim of this code is to provide developers with an automated way to access live volumes of certified carbon credits. By following four simple steps, developers can seamlessly integrate with our platform and participate in carbon credit transactions.
+Through our platform and API, we enable developers to seamlessly participate in carbon credit transactions, promoting sustainable practices and making a meaningful impact on the planet.
 
 1. **Request Private Keys:**
    To get started, you'll need private keys that can be requested [here](https://market.vnvadvisory.com/request-info/). These private keys are crucial for authentication and secure access to the marketplace.
