@@ -2,7 +2,27 @@
 
 ## Overview
 
-The WooCommerce API with Extended Functionality allows developers to interact with WooCommerce stores and access specific products with enhanced security using the `x-api-key` header. As part of the test environment, you can use the demo endpoint to retrieve sample data for product ID 829.
+The **WooCommerce API with Extended Functionality** enables developers to interact with WooCommerce stores and access specific products with enhanced security using the `x-api-key` header. In this test environment, you can utilize the demo endpoint to retrieve sample data for a particular product (ID 829).
+
+## Aim and Purpose
+
+The aim of this code is to provide developers with an automated way to access live volumes of certified carbon credits. By following four simple steps, developers can seamlessly integrate with our platform and participate in carbon credit transactions.
+
+1. **Request Private Keys:**
+   To get started, you'll need private keys that can be requested [here](https://market.vnvadvisory.com/request-info/). These private keys are crucial for authentication and secure access to the marketplace.
+
+2. **Connect Keys to Specific Volumes:**
+   We understand the importance of granularity and control. Our extended functionality allows us to connect specific API keys to specific products (volumes) rather than granting all keys access to all products. We'll assist you in linking your keys to the volume(s) from which you would like to reserve credits.
+
+3. **Purchase Certified Carbon Credits:**
+   With the obtained private keys, developers can buy certified carbon credits with volumes as low as 10 credits (equivalent to 10 tonnes of certified CO2 compensation). Upon making the purchase, you will be presented with an online payment option.
+
+4. **Customized Credit Retirement:**
+   During the purchasing process, you can provide a description that you want VNV to use when retiring these credits on your behalf. Typically, we work with the phrase: *"Retired on behalf of <X> to offset their <scope X> emissions for year(s) 2022-2023"* or something along those lines.
+
+After the payment has been successfully transferred, VNV's Portfolio team will process your request. Within 2-5 business days, you will receive the public GoldStandard or VERRA link that verifies the retirement of carbon credits on your behalf.
+
+Please note that the provided data in this demo endpoint is for demonstration purposes only and does not represent actual product information.
 
 ## Demo Endpoint
 
@@ -12,36 +32,41 @@ The demo endpoint URL for retrieving product data is:
 https://market.vnvadvisory.com/wp-json/wc/v3/products/829
 ```
 
-### Required Headers
+## Required Headers
 
-To access the demo data, make sure to include the following headers in your GET request:
+To access the demo data, ensure that you include the following headers in your GET request:
 
-- **x-api-key**: iSGEdDpy4WLvj3Qm7pCogy6V
+```
+x-api-key: iSGEdDpy4WLvj3Qm7pCogy6V
+```
 
-Example using cURL:
+**Example using cURL:**
 
 ```bash
 curl -X GET "https://market.vnvadvisory.com/wp-json/wc/v3/products/829" \
   -H "x-api-key: test_x-api-key"
 ```
 
-### Query Parameters
+## Query Parameters
 
 In addition to the headers, please include the following query parameters for authentication:
 
-- **consumer_key**: ck_93033ba6977158a41fbb48ce879704789931da49
-- **consumer_secret**: cs_f0eea610ba99e29e3b0164c9c03d5cb33574905a
+```
+consumer_key: ck_93033ba6977158a41fbb48ce879704789931da49
+consumer_secret: cs_f0eea610ba99e29e3b0164c9c03d5cb33574905a
+```
 
-Example using cURL:
+**Example using cURL:**
 
 ```bash
 curl -X GET "https://market.vnvadvisory.com/wp-json/wc/v3/products/829?consumer_key=test_consumer_key&consumer_secret=test_consumer_secret" \
   -H "x-api-key: test_x-api-key"
 ```
 
-### Response
+## Response
 
 The API will respond with a JSON object containing the demo data for the product with ID 829:
+
 ```json
 {
     "id": 829,
@@ -56,17 +81,16 @@ The API will respond with a JSON object containing the demo data for the product
     "status": "publish",
     "featured": false,
     "catalog_visibility": "visible",
-  // Additional product details...
+    // Additional product details...
 }
 ```
-Full Json response is given in the output.json file in the code.
 
-Please note that this is sample data and does not reflect actual product information.
+Please note that this data is for demonstration purposes only and does not represent actual product information.
 
 ## Get Started
-If you want access to real VNV products and data please click [HERE](https://market.vnvadvisory.com/request-info/)  to fill the form and we'll get back to you.
+
+If you are interested in accessing real VNV products and data, please click [HERE](https://vnvadvisory.com/real-products-form) to fill out the form, and we'll get back to you promptly.
 
 ## Contribution
 
-Contributions to the WooCommerce API with Extended Functionality are welcome! If you encounter any bugs, have feature requests, or want to improve the documentation, please submit an issue or a pull request to this repository.
-
+Contributions to the WooCommerce API with Extended Functionality are most welcome! If you encounter any bugs, have feature requests, or want to improve the documentation, please feel free to submit an issue or a pull request to this repository.
