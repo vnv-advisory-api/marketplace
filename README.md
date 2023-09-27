@@ -19,7 +19,7 @@ Through our platform and API, we enable developers to seamlessly participate in 
    With the obtained private keys, developers can buy certified carbon credits with volumes as low as 10 credits (equivalent to 10 tonnes of certified CO2 compensation). Upon making the purchase, you will be presented with an online payment option. In case your specific business requires another approach (say weekly or monthly retirements), we can work out the best process together.
 
 4. **Customized Credit Retirement:**
-   During the purchasing process, you can provide a description that you want VNV to use when retiring these credits on your behalf. Typically, we work with the phrase: *"Retired on behalf of <X> to offset their <scope X> emissions for year(s) 2022-2023"* or something along those lines.
+   During the purchasing process, you can provide a description that you want VNV to use when retiring these credits on your behalf. Typically, we work with the phrase: *"Retired on behalf of party X to offset their Scope 1/2/3 emissions for year(s) 2022-2023"* or something along those lines.
 
 After the payment has been successfully transferred, VNV's Portfolio team will process your request. Within 2-5 business days, you will receive the public GoldStandard or VERRA link that verifies the retirement of carbon credits on your behalf.
 
